@@ -1086,6 +1086,8 @@ img {
 }
 
 .contact__title {
+  display: flex;
+  justify-content: center;
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
 }
@@ -1095,6 +1097,13 @@ img {
   color: var(--text-color);
 }
 
+.set1 {
+  margin-left: 3rem;
+}
+
+.set2 {
+  margin-left: 1rem;
+}
 /* Form */
 
 .contact-form {
