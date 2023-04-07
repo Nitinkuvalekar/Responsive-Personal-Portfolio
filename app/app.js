@@ -34,7 +34,7 @@ themeButton.addEventListener("click", () => {
   localStorage.setItem("selected-theme", getCurrentTheme());
   localStorage.setItem("selected-icon", getCurrentIcon());
 });
-console.log("THEME SETTING IS WORKING!");
+// console.log("THEME SETTING IS WORKING!");
 
 //===================================== MENU SHOW Y HIDDEN =========================
 const navMenu = document.getElementById("nav-menu");
@@ -57,7 +57,7 @@ if (navClose) {
   });
 }
 
-console.log("MENU Y SETTING WORKING!");
+// console.log("MENU Y SETTING WORKING!");
 //===================================== REMOVE MENU PRORFILE =========================
 const navLink = document.querySelectorAll(".nav__link");
 
@@ -68,7 +68,7 @@ function linkAction() {
 }
 
 navLink.forEach((n) => n.addEventListener("click", linkAction));
-console.log("Remove menu profile is working!");
+// console.log("Remove menu profile is working!");
 
 //===================================== Typewriter Effect =========================
 
@@ -78,7 +78,7 @@ new Typewriter("#typewriter", {
   loop: true,
   cursor: "|",
 });
-console.log("Typewriter effect is working!");
+// console.log("Typewriter effect is working!");
 
 //===================================== Portfolio Swiper =========================
 
@@ -100,7 +100,7 @@ var swiper = new Swiper(".blog-slider", {
   // mousewheel: true,
   keyboard: true,
 });
-console.log("Portfolio Swiper is working!");
+// console.log("Portfolio Swiper is working!");
 
 //===================================== SCROLL UP =========================
 function scrollUp() {
@@ -111,7 +111,7 @@ function scrollUp() {
   } else {
     scrollup.classList.remove("show-scroll");
   }
-  console.log("Scroll up being called and working!");
+  // console.log("Scroll up being called and working!");
 }
 window.addEventListener("scroll", scrollUp);
 
